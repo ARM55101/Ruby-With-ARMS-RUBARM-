@@ -16,6 +16,3 @@ chmod +x yourscript.sh
 Finally run it using ./runtime.sh
 
 But make sure your embedded ruby file (.erb) is in the folder you are currently in.
-
-#!/bin/bash
-echo "Hello, GitHub!"
