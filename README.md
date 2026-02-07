@@ -8,6 +8,12 @@ A ruby framework built  for embedding Ruby code in ARM64 ASM: for building funct
 To start with RubARM you need to clone this repo using the following command:
 
 ```bash
+wget 
+```
+
+or
+
+```bash
 git clone https://github.com/ARM55101/Ruby-With-ARMS-RUBARM-
 ```
 
