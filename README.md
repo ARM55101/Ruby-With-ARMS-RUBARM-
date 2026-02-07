@@ -14,7 +14,7 @@ git clone https://github.com/ARM55101/Ruby-With-ARMS-RUBARM-
 Next cd into the runtime folder and build the .sh file:
 
 ```bash
-chmod +x yourscript.sh
+chmod +x runtime.sh
 ```
 
 Finally run it using:
