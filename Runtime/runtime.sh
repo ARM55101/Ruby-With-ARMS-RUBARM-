@@ -1,6 +1,6 @@
 //RubARM//
 //The following code is under the GPL2 licence//
-as project.erb -o 
+for file in *.rb; do ruby "$file"; done
 ruby run.rb
 
 
