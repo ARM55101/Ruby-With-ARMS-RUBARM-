@@ -9,15 +9,18 @@ To start with RubARM you need to clone this repo using the following command:
 
 ```bash
 curl https://github.com/ARM55101/Ruby-With-ARMS-RUBARM-
+```
 
 Next cd into the runtime folder and build the .sh file:
 
 ```bash
 chmod +x yourscript.sh
+```
 
 Finally run it using:
 
 ```bash
 ./runtime.sh
+```
 
 But make sure your embedded ruby file (.erb) is in the folder you are currently in.
