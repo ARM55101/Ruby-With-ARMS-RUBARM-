@@ -13,4 +13,6 @@ Next cd into the runtime folder and build the .sh file:
 
 chmod +x yourscript.sh
 
-Finally run it using ./
+Finally run it using ./runtime.sh
+
+But make sure your embedded ruby file (.erb) is in the folder you are currently in.
