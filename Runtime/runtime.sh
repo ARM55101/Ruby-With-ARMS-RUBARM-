@@ -8,5 +8,3 @@ for file in *.rb; do
     as -Z -o "${file%.s}" "$file"; 
 done
 ruby run.rb
-arm-none-eabi-gcc -Z -o program.o input.s
-
