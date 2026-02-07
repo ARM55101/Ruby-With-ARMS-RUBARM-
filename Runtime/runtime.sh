@@ -4,6 +4,8 @@
 brew install ruby
 brew install brew install --cask gcc-arm-embedded
 brew install arm-none-eabi-gcc
+export CC=arm-none-eabi-gcc
+export CXX=arm-none-eabi-g++
 for file in *.erb; do
     as -Z -o "${file%.s}" "$file"; 
 done
