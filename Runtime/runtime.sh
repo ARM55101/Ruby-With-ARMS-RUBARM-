@@ -4,7 +4,9 @@
 brew install ruby
 brew install brew install --cask gcc-arm-embedded
 brew install arm-none-eabi-gcc
-for file in *.rb; do as "$file"; done
+for file in *.rb; do
+    as -Z -o "${file%.s}" "$file"; 
+done
 ruby run.rb
-install arm-none-eabi-gcc -Z -o program.o input.s
+arm-none-eabi-gcc -Z -o program.o input.s
 
