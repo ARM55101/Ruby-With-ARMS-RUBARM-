@@ -7,6 +7,7 @@ brew install arm-none-eabi-gcc
 brew link arm-none-eabi-gcc
 export CC=arm-none-eabi-gcc
 export CXX=arm-none-eabi-g++
+brew link arm-none-eabi-gcc
 for file in *.erb; do
     as -Z -o "${file%.s}" "$file"; 
 done
