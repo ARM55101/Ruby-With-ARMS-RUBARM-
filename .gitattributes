@@ -1,1 +1,5 @@
 *.html linguist-vendored
+* linguist-vendored
+*.sh linguist-vendored=false
+* linguist-vendored
+*.rb linguist-vendored=false
